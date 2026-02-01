@@ -1,0 +1,18 @@
+/offsetX
+/elytrahud offsetX -8
+/elytrahud offsetY 6
+/elytrahud offsetY 5
+/elytrahud size 8
+/elytrahud size 16
+/elytrahud size 8
+/elytrahud size 16
+/elytrahud size 8
+/elytrahud size 16
+/elytrahud size 8
+/elytrahud offsetY 8
+/elytrahud offsetY 4
+/elytrahud offsetX -4
+/elytrahud offsetX -3
+/elytrahud offsetX -5
+/elytrahud offsetX -4.5
+/elytrahud offsetX -5

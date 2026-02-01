@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraindicator",
+  "version": "1.0",
+  "name": "ElytraIndicator",
+  "description": "Cheat for good game!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/elytraindicator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.fl.elytraindicator.client.ElytraindicatorDataGenerator"
+    ],
+    "client": [
+      "org.fl.elytraindicator.client.ElytraindicatorClient"
+    ],
+    "main": [
+      "org.fl.elytraindicator.Elytraindicator"
+    ]
+  },
+  "mixins": [
+    "elytraindicator.mixins.json",
+    {
+      "config": "elytraindicator.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
